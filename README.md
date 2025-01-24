@@ -9,7 +9,7 @@ Script: Hyperparameter-Tuning-CNN-Gamma-Nonlinear-Taiwan-LearningCurve-MSEcomp.i
 Description: This step focuses on tuning hyperparameters for the CNN-Gamma model. The model's performance is evaluated by comparing the training and validation learning curves using the Mean Squared Error (MSE).
 2. Train a CNN-Gamma Model for Further Evaluation
 Script: Training_Baseline_Models-Rampal2Taiwan.ipynb
-Description: This script builds a baseline model using data specific to Taiwan. It is adapted from the original scripts provided by Mr. Rampal to serve as a foundation for subsequent steps.
+Description: This script builds a baseline model using data specific to Taiwan. It is adapted from the original scripts provided by Mr. Rampal (https://github.com/nram812/high-resolution-downscaling) to serve as a foundation for subsequent steps.
 3. Identify Optimal Combinations of Atmospheric Variable Inputs
 Script: InputVariable-Model-Evaluation-CNNGamma-Taiwan.ipynb
 Description: This step evaluates various combinations of atmospheric variables to train the CNN-Gamma model (using the model from Step 2) and predict precipitation. Performance is assessed using several metrics, with considerations for potential improvements:
